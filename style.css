@@ -1,0 +1,257 @@
+/* Reset de estilos */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f7f7f7;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+}
+
+nav .logo {
+	font-size: 28px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+nav ul li {
+	margin-left: 20px;
+}
+
+nav ul li a {
+	font-size: 18px;
+	color: #333;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #ff6600;
+}
+
+/* Estilos de la sección de bienvenida */
+.hero {
+	background-image: url("pictures/background.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	display: flex;
+	align-items: center;
+}
+
+.hero h1 {
+	font-size: 48px;
+	font-weight: bold;
+	color: black;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 28px;
+	color: white;
+    -webkit-text-stroke: 0.5px black;
+	margin-bottom: 30px;
+}
+
+.hero .cta {
+	display: inline-block;
+	font-size: 20px;
+	padding: 12px 24px;
+	background-color: #ff6600;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 30px;
+	transition: all 0.3s ease;
+}
+
+.hero .cta:hover {
+	background-color: #fff;
+	color: #ff6600;
+}
+
+/* Estilos de la sección de acerca de */
+.about {
+	padding: 80px 0;
+}
+
+.about h2 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 30px;
+}
+
+.about p {
+	font-size: 16px;
+	color: #666;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.about img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* Estilos de la sección de servicios */
+.services {
+    padding: 80px 0;
+    background-color: #fff;
+    }
+    
+    .services h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    }
+    
+    .services ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .services li {
+    flex-basis: calc(33.33% - 40px);
+    margin: 20px;
+    padding: 40px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    }
+    
+    .services li h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    }
+    
+    .services li p {
+    font-size: 16px;
+    color: #666;
+    }
+    
+    /* Estilos del formulario de contacto */
+    .contact {
+    padding: 80px 0;
+    }
+    
+    .contact h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    }
+    
+    .contact form {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .contact .form-group {
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+    }
+    
+    .contact label {
+    font-size: 16px;
+    color: #333;
+    }
+    
+    .contact input,
+    .contact textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    font-size: 16px;
+    }
+    
+    .contact textarea {
+    height: 150px;
+    }
+    
+    .contact .cta {
+    display: block;
+    margin-top: 20px;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    }
+    
+    .contact .cta:hover {
+    background-color: #fff;
+    color: #ff6600;
+    }
+    
+    /* Estilos del pie de página */
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    }
+    
+    footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    }
+    
+    footer ul li {
+    margin-left: 20px;
+    }
+    
+    footer ul li a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    footer p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    }
